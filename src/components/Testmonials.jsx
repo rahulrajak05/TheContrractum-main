@@ -7,14 +7,14 @@ export default function TestimonialsSection() {
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
         {/* LEFT CONTENT */}
         <div>
-          <p className="text-primary text-sm font-semibold tracking-widest mb-6 relative inline-block">
+          <p className="text-red-500 text-sm font-semibold tracking-widest mb-6 relative inline-block">
             OUR TESTIMONIALS
-            <span className="absolute -bottom-2 left-0 w-16 h-[2px] bg-primary"></span>
+            <span className="absolute -bottom-2 left-0 w-16 h-[2px] bg-red-500"></span>
           </p>
 
           <h2 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6 relative">
             What They Are <br /> Talking About Us?
-            <span className="absolute top-2 right-10 w-3 h-3 bg-primary rounded-full"></span>
+            <span className="absolute top-2 right-10 w-3 h-3 bg-red-500 rounded-full"></span>
           </h2>
 
           <p className="text-gray-600 text-lg leading-relaxed mb-10 max-w-xl">
@@ -22,16 +22,16 @@ export default function TestimonialsSection() {
             success stories with us.
           </p>
 
-          <button className="bg-primary hover:bg-primary text-white px-10 py-4 font-semibold rounded-2xl shadow-lg transition">
+          <button className="bg-red-500 hover:bg-red-600 text-white px-10 py-4 font-semibold rounded-2xl shadow-lg transition">
             DISCOVER MORE
           </button>
 
           {/* Arrows */}
           <div className="flex gap-4 mt-12">
-            <button className="w-14 h-14 flex items-center justify-center bg-primary hover:bg-primary-dark rounded-xl transition">
+            <button className="w-14 h-14 flex items-center justify-center bg-gray-200 hover:bg-gray-300 rounded-xl transition">
               <ArrowLeft />
             </button>
-            <button className="w-14 h-14 flex items-center justify-center bg-primary hover:bg-primary-dark rounded-xl transition">
+            <button className="w-14 h-14 flex items-center justify-center bg-gray-200 hover:bg-gray-300 rounded-xl transition">
               <ArrowRight />
             </button>
           </div>

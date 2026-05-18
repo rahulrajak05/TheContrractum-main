@@ -94,7 +94,7 @@ export default function OurClients() {
 
         {/* Top Label */}
         <div className="mb-4">
-          <p className="text-primary uppercase tracking-widest text-sm font-semibold border-b-2 border-primary inline-block pb-1">
+          <p className="text-red-600 uppercase tracking-widest text-sm font-semibold border-b-2 border-red-600 inline-block pb-1">
             Our Clients
           </p>
         </div>
@@ -103,7 +103,7 @@ export default function OurClients() {
         <h2 className="text-5xl font-bold text-gray-900 mb-16">
           100% <span className="relative">
             Satisfied Clients
-            <span className="absolute -top-2 -right-4 w-2 h-2 bg-primary rounded-full"></span>
+            <span className="absolute -top-2 -right-4 w-2 h-2 bg-red-600 rounded-full"></span>
           </span>
         </h2>
 
@@ -123,7 +123,7 @@ export default function OurClients() {
               />
 
               {/* Dark Overlay */}
-              <div className="absolute inset-0 bg-black/50 group-hover:bg-primary-dark/60 transition duration-500"></div>
+              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition duration-500"></div>
 
               {/* Center Text */}
               <div className="absolute inset-0 flex items-center justify-center">

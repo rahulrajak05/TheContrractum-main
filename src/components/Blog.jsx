@@ -45,7 +45,7 @@ export default function ConsultingBlogSection() {
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-20 relative">
-          <p className="text-primary text-sm font-semibold tracking-widest mb-4 uppercase">
+          <p className="text-red-500 text-sm font-semibold tracking-widest mb-4 uppercase">
             OUR BLOG
           </p>
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
@@ -87,20 +87,20 @@ export default function ConsultingBlogSection() {
                 {/* Meta */}
                 <div className="flex flex-wrap items-center gap-6 text-sm text-gray-500 mb-6">
                   <div className="flex items-center gap-2">
-                    <Calendar size={16} className="text-primary" />
+                    <Calendar size={16} className="text-red-500" />
                     <span>{post.date}</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <User size={16} className="text-primary" />
+                    <User size={16} className="text-red-500" />
                     <span>{post.author}</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <MessageCircle size={16} className="text-primary" />
+                    <MessageCircle size={16} className="text-red-500" />
                     <span>{post.comments}</span>
                   </div>
                 </div>
 
-                <h3 className="text-2xl md:text-3xl font-bold mb-4 leading-snug hover:text-primary transition cursor-pointer">
+                <h3 className="text-2xl md:text-3xl font-bold mb-4 leading-snug hover:text-red-500 transition cursor-pointer">
                   {post.title}
                 </h3>
 
@@ -108,7 +108,7 @@ export default function ConsultingBlogSection() {
                   {post.excerpt}
                 </p>
 
-                <button className="bg-primary text-white font-semibold hover:bg-primary-dark flex items-center gap-2 group px-4 py-2 rounded">
+                <button className="text-red-500 font-semibold hover:underline flex items-center gap-2 group">
                   Read More
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

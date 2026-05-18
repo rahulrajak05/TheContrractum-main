@@ -20,11 +20,11 @@ const FeedbackModal = () => {
       <div className="w-[500px] bg-white shadow-2xl border border-gray-400">
 
         {/* Header */}
-        <div className="bg-primary text-white px-6 py-4 flex justify-between items-center">
+        <div className="bg-red-600 text-white px-6 py-4 flex justify-between items-center">
           <h2 className="text-lg font-semibold">
             We want to hear your feedback!
           </h2>
-          <button onClick={() => navigate(-1)} className="hover:bg-primary-dark p-1 rounded transition-colors">
+          <button onClick={() => navigate(-1)} className="hover:bg-red-700 p-1 rounded transition-colors">
             <X size={20} />
           </button>
         </div>
@@ -82,14 +82,14 @@ const FeedbackModal = () => {
 
           {/* Send Button */}
           <div className="flex justify-end mt-6">
-            <button className="bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded shadow-md flex items-center gap-2">
+            <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded shadow-md flex items-center gap-2">
               Send <Send size={16} />
             </button>
           </div>
 
           {/* Footer */}
           <div className="text-center text-xs text-gray-400 mt-6">
-            Powered by <span className="font-semibold text-primary">m</span>opinion
+            Powered by <span className="font-semibold text-red-500">m</span>opinion
           </div>
 
         </div>

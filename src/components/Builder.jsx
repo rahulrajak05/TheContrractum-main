@@ -40,10 +40,10 @@ export default function WhyChooseUs() {
 
         {/* Small Top Tag */}
         <div className="mb-4">
-          <p className="text-primary uppercase tracking-widest text-sm font-semibold">
+          <p className="text-red-600 uppercase tracking-widest text-sm font-semibold">
             Our Feature
           </p>
-          <div className="w-6 h-6 border-2 border-primary rounded-full mx-auto mt-2"></div>
+          <div className="w-6 h-6 border-2 border-red-600 rounded-full mx-auto mt-2"></div>
         </div>
 
         {/* Heading */}
@@ -66,9 +66,9 @@ export default function WhyChooseUs() {
                   style={{ backgroundImage: `url(${item.bgImage})` }}
                 ></div>
 
-                <div className="absolute w-64 h-64 bg-primary rounded-full -left-6 group-hover:scale-110 transition-transform duration-500"></div>
+                <div className="absolute w-64 h-64 bg-red-600 rounded-full -left-6 group-hover:scale-110 transition-transform duration-500"></div>
                 
-                <div className="relative w-60 h-60 bg-primary group-hover:bg-white rounded-full flex items-center justify-center shadow-lg group-hover:shadow-2xl transition-all duration-500 overflow-hidden">
+                <div className="relative w-60 h-60 bg-gray-200 group-hover:bg-white rounded-full flex items-center justify-center shadow-lg group-hover:shadow-2xl transition-all duration-500 overflow-hidden">
                   
                   {/* Icon Background Image on Hover (Desktop) / Always Visible (Mobile/Tablet) */}
                   <div 
@@ -76,20 +76,20 @@ export default function WhyChooseUs() {
                     style={{ backgroundImage: `url(${item.bgImage})` }}
                   ></div>
 
-                  <div className="relative text-blue-900 group-hover:text-primary group-hover:scale-110 transition-all duration-500">
+                  <div className="relative text-blue-900 group-hover:text-red-600 group-hover:scale-110 transition-all duration-500">
                     {item.icon}
                   </div>
                 </div>
 
                 {/* Step Number Circle */}
-                <div className="absolute bottom-4 right-6 w-14 h-14 bg-black group-hover:bg-primary text-white rounded-full flex items-center justify-center text-lg font-semibold shadow-md group-hover:shadow-xl transition-all duration-500 group-hover:scale-110">
+                <div className="absolute bottom-4 right-6 w-14 h-14 bg-black group-hover:bg-red-600 text-white rounded-full flex items-center justify-center text-lg font-semibold shadow-md group-hover:shadow-xl transition-all duration-500 group-hover:scale-110">
                   {item.number}
                 </div>
 
               </div>
 
               {/* Text Content */}
-              <h3 className="text-2xl font-bold text-gray-900 group-hover:text-primary mt-8 mb-4 transition-colors duration-300">
+              <h3 className="text-2xl font-bold text-gray-900 group-hover:text-red-600 mt-8 mb-4 transition-colors duration-300">
                 {item.title}
               </h3>
 

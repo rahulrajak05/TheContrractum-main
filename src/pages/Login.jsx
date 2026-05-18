@@ -77,14 +77,14 @@ export default function Login() {
                   name="remember"
                   checked={formData.remember}
                   onChange={handleChange}
-                  className="h-4 w-4 text-primary focus:ring-indigo-500 border-gray-300 rounded"
+                  className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
                 />
                 <label htmlFor="remember" className="ml-2 block text-sm text-gray-700">
                   Remember me
                 </label>
               </div>
               <div className="text-sm">
-                <a href="#" className="text-primary hover:text-primary-light transition duration-300">
+                <a href="#" className="text-indigo-600 hover:text-indigo-500 transition duration-300">
                   Forgot password?
                 </a>
               </div>
@@ -93,7 +93,7 @@ export default function Login() {
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full bg-primary hover:bg-primary-dark text-white font-bold py-3 rounded-2xl transition duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1"
+              className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded-2xl transition duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1"
             >
               Sign In
             </button>
@@ -103,7 +103,7 @@ export default function Login() {
           <div className="mt-6 text-center">
             <p className="text-gray-600">
               Don't have an account?{' '}
-              <Link to="/register" className="text-primary hover:text-primary-light font-medium transition duration-300">
+              <Link to="/register" className="text-indigo-600 hover:text-indigo-500 font-medium transition duration-300">
                 Sign up
               </Link>
             </p>

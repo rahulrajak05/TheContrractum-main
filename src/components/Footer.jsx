@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
 
       {/* ================= Main Footer ================= */}
-      <div className="bg-gray-800 text-white pt-20 pb-6 px-6 relative overflow-hidden">
+      <div className="bg-gradient-to-br from-gray-900 via-black to-gray-800 text-gray-400 pt-20 pb-6 px-6 relative overflow-hidden">
         
         {/* Decorative Elements */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-red-500/5 rounded-full blur-3xl"></div>
@@ -101,31 +101,31 @@ const Footer = () => {
               <div className="h-0.5 w-8 bg-gradient-to-r from-red-500 to-transparent"></div>
             </h4>
             <ul className="space-y-3">
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 GIS Solutions
               </li>
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 IT Consulting
               </li>
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 E-commerce
               </li>
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 Telecom Services
               </li>
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 HR Solutions
               </li>
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 BPO Services
               </li>
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 Market Research
               </li>
@@ -139,31 +139,31 @@ const Footer = () => {
               <div className="h-0.5 w-8 bg-gradient-to-r from-red-500 to-transparent"></div>
             </h4>
             <ul className="space-y-3">
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 About Us
               </li>
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 Our Team
               </li>
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 Careers
               </li>
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 Contact Us
               </li>
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 Projects
               </li>
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 Resources
               </li>
-              <li className="hover:text-red-400 cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
+              <li className="hover:text-white cursor-pointer transition-colors hover:translate-x-2 transform duration-200 flex items-center gap-2 group">
                 <span className="w-1.5 h-1.5 bg-red-500 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                 Support
               </li>
@@ -181,7 +181,7 @@ const Footer = () => {
               <div className="flex items-start gap-3 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all border border-white/10 group cursor-pointer">
                 <Mail size={20} className="text-red-500 mt-0.5 group-hover:scale-110 transition-transform" />
                 <div>
-                  <p className="text-xs text-gray-300 mb-1">Email</p>
+                  <p className="text-xs text-gray-500 mb-1">Email</p>
                   <a href="mailto:info@thecontractum.com" className="text-white hover:text-red-400 transition-colors font-medium">
                     info@thecontractum.com
                   </a>
@@ -191,7 +191,7 @@ const Footer = () => {
               <div className="flex items-start gap-3 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all border border-white/10 group cursor-pointer">
                 <Phone size={20} className="text-red-500 mt-0.5 group-hover:scale-110 transition-transform" />
                 <div>
-                  <p className="text-xs text-gray-300 mb-1">Phone</p>
+                  <p className="text-xs text-gray-500 mb-1">Phone</p>
                   <a href="tel:+919680534740" className="text-white hover:text-red-400 transition-colors font-medium">
                     +91 96805-34740
                   </a>
@@ -201,7 +201,7 @@ const Footer = () => {
               <div className="flex items-start gap-3 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all border border-white/10 group cursor-pointer">
                 <MapPin size={20} className="text-red-500 mt-0.5 group-hover:scale-110 transition-transform" />
                 <div>
-                  <p className="text-xs text-gray-300 mb-1">Address</p>
+                  <p className="text-xs text-gray-500 mb-1">Address</p>
                   <p className="text-white leading-relaxed text-sm">
                     Plot No 169, Ground Floor<br />
                     Rangbari Road<br />
@@ -216,13 +216,13 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 relative z-10">
-          <p className="text-white text-sm text-center md:text-left">
-            © {new Date().getFullYear()} <span className="text-blue-400 font-semibold">The</span> <span className="text-red-500 font-semibold">Contractum</span>. All rights reserved.
+          <p className="text-gray-500 text-sm text-center md:text-left">
+            © {new Date().getFullYear()} <span className="text-blue-400 font-semibold">The</span> <span className="text-red-500 font-semibold">Contrractum</span>. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
-            <a href="#" className="hover:text-red-400 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-red-400 transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-red-400 transition-colors">Cookie Policy</a>
+            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-white transition-colors">Cookie Policy</a>
           </div>
         </div>
       </div>

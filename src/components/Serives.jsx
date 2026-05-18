@@ -19,63 +19,63 @@ export default function ConsultingSection() {
       number: "01",
       title: "GIS",
       desc: "Comprehensive geospatial and IT services for businesses.",
-      icon: <Map className="text-primary w-8 h-8" />,
+      icon: <Map className="text-red-600 w-8 h-8" />,
       bgImage: "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=500&h=400&fit=crop",
     },
     {
       number: "02",
       title: "CS/IT",
       desc: "IT staffing and technology solutions for modern enterprises.",
-      icon: <Cpu className="text-primary w-8 h-8" />,
+      icon: <Cpu className="text-red-600 w-8 h-8" />,
       bgImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop",
     },
     {
       number: "03",
       title: "Ecommerce",
       desc: "Complete ecommerce and payment integration solutions.",
-      icon: <ShoppingCart className="text-primary w-8 h-8" />,
+      icon: <ShoppingCart className="text-red-600 w-8 h-8" />,
       bgImage: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=400&fit=crop",
     },
     {
       number: "04",
       title: "Telecommunication",
       desc: "Advanced telecommunication and connectivity services.",
-      icon: <Phone className="text-primary w-8 h-8" />,
+      icon: <Phone className="text-red-600 w-8 h-8" />,
       bgImage: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=500&h=400&fit=crop",
     },
     {
       number: "05",
       title: "Human Resource",
       desc: "Workforce management and HR consulting solutions.",
-      icon: <User className="text-primary w-8 h-8" />,
+      icon: <User className="text-red-600 w-8 h-8" />,
       bgImage: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=500&h=400&fit=crop",
     },
     {
       number: "06",
       title: "BPO",
       desc: "Outsourcing solutions to optimize business operations.",
-      icon: <Globe className="text-primary w-8 h-8" />,
+      icon: <Globe className="text-red-600 w-8 h-8" />,
       bgImage: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=500&h=400&fit=crop",
     },
     {
       number: "07",
       title: "Market Research",
       desc: "Data-driven research and market analysis services.",
-      icon: <BarChart3 className="text-primary w-8 h-8" />,
+      icon: <BarChart3 className="text-red-600 w-8 h-8" />,
       bgImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=400&fit=crop",
     },
     {
       number: "08",
       title: "Education",
       desc: "Digital learning and institutional management solutions.",
-      icon: <BookOpen className="text-primary w-8 h-8" />,
+      icon: <BookOpen className="text-red-600 w-8 h-8" />,
       bgImage: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=400&fit=crop",
     },
     {
       number: "09",
       title: "Healthcare",
       desc: "Hospital management and telemedicine platforms.",
-      icon: <HeartPulse className="text-primary w-8 h-8" />,
+      icon: <HeartPulse className="text-red-600 w-8 h-8" />,
       bgImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop",
     },
   ];
@@ -102,7 +102,7 @@ export default function ConsultingSection() {
 
         {/* Heading */}
         <div className="mb-16 text-center">
-          <p className="text-primary uppercase tracking-widest font-semibold mb-3">
+          <p className="text-red-600 uppercase tracking-widest font-semibold mb-3">
             Consulting Services
           </p>
           <h2 className="text-4xl font-bold text-gray-900">
@@ -145,7 +145,7 @@ export default function ConsultingSection() {
                   {service.desc}
                 </p>
 
-                <button className="font-semibold bg-primary text-white hover:bg-primary-dark transition drop-shadow-md px-4 py-2 rounded">
+                <button className="font-semibold text-gray-900 group-hover:text-white hover:text-red-600 transition drop-shadow-md">
                   Read More →
                 </button>
               </div>

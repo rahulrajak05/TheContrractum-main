@@ -1,8 +1,5 @@
 import React from 'react';
-import { Send } from 'lucide-react';
-import location from "../../assets/location.png";
-import phone from "../../assets/phone.png";
-import email from "../../assets/email.png";
+import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 const Getintouch = () => {
   return (
@@ -11,7 +8,7 @@ const Getintouch = () => {
       <div className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h1 className="text-5xl font-bold mb-4 text-gray-900">Reach Out To Us!</h1>
-          <div className="w-24 h-1 bg-primary mx-auto mb-4"></div>
+          <div className="w-24 h-1 bg-red-600 mx-auto mb-4"></div>
           <p className="text-xl text-gray-600">At The Contractum, the first thing we will do is listen. We want to know more about your challenges and design solutions that will take your HR tech to the next level.</p>
         </div>
       </div>
@@ -26,7 +23,7 @@ const Getintouch = () => {
             <form className="space-y-5">
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Full Name <span className="text-primary">*</span>
+                  Full Name <span className="text-red-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -38,7 +35,7 @@ const Getintouch = () => {
 
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Email Address <span className="text-primary">*</span>
+                  Email Address <span className="text-red-500">*</span>
                 </label>
                 <input
                   type="email"
@@ -61,7 +58,7 @@ const Getintouch = () => {
 
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Subject <span className="text-primary">*</span>
+                  Subject <span className="text-red-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -73,7 +70,7 @@ const Getintouch = () => {
 
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Message <span className="text-primary">*</span>
+                  Message <span className="text-red-500">*</span>
                 </label>
                 <textarea
                   rows="5"
@@ -85,7 +82,7 @@ const Getintouch = () => {
 
               <button
                 type="submit"
-                className="w-full bg-primary hover:bg-primary text-white font-semibold py-4 rounded-lg transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2"
+                className="w-full bg-gray-900 hover:bg-gray-800 text-white font-semibold py-4 rounded-lg transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2"
               >
                 <Send size={20} />
                 Submit Message
@@ -101,32 +98,32 @@ const Getintouch = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4 p-5 bg-gray-50 rounded-lg border border-gray-200 hover:border-gray-300 transition-all">
-                  <div className="bg-primary p-3 rounded-lg">
-                    <img src={email} alt="Email" className="w-5.5 h-5.5" />
+                  <div className="bg-gray-800 p-3 rounded-lg">
+                    <Mail size={22} className="text-white" />
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900 mb-1 text-sm uppercase tracking-wide">Email Address</h3>
-                    <a href="mailto:info@thecontractum.com" className="text-gray-700 hover:text-primary transition-colors text-lg">
+                    <a href="mailto:info@thecontractum.com" className="text-gray-700 hover:text-red-600 transition-colors text-lg">
                       info@thecontractum.com
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4 p-5 bg-gray-50 rounded-lg border border-gray-200 hover:border-gray-300 transition-all">
-                  <div className="bg-primary p-3 rounded-lg">
-                    <img src={phone} alt="Phone" className="w-5.5 h-5.5" />
+                  <div className="bg-gray-800 p-3 rounded-lg">
+                    <Phone size={22} className="text-white" />
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900 mb-1 text-sm uppercase tracking-wide">Phone Number</h3>
-                    <a href="tel:+919680534740" className="text-gray-700 hover:text-primary transition-colors text-lg">
+                    <a href="tel:+919680534740" className="text-gray-700 hover:text-red-600 transition-colors text-lg">
                       +91 96805-34740
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4 p-5 bg-gray-50 rounded-lg border border-gray-200 hover:border-gray-300 transition-all">
-                  <div className="bg-primary p-3 rounded-lg">
-                    <img src={location} alt="Location" className="w-5.5 h-5.5" />
+                  <div className="bg-gray-800 p-3 rounded-lg">
+                    <MapPin size={22} className="text-white" />
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900 mb-1 text-sm uppercase tracking-wide">Office Address</h3>

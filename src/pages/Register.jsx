@@ -99,7 +99,7 @@ export default function Register() {
                 placeholder="John Doe"
               />
               {errors.fullName && (
-                <p className="mt-1 text-sm text-primary">{errors.fullName}</p>
+                <p className="mt-1 text-sm text-red-600">{errors.fullName}</p>
               )}
             </div>
 
@@ -123,7 +123,7 @@ export default function Register() {
                 placeholder="you@example.com"
               />
               {errors.email && (
-                <p className="mt-1 text-sm text-primary">{errors.email}</p>
+                <p className="mt-1 text-sm text-red-600">{errors.email}</p>
               )}
             </div>
 
@@ -147,7 +147,7 @@ export default function Register() {
                 placeholder="••••••••"
               />
               {errors.password && (
-                <p className="mt-1 text-sm text-primary">{errors.password}</p>
+                <p className="mt-1 text-sm text-red-600">{errors.password}</p>
               )}
             </div>
 
@@ -171,14 +171,14 @@ export default function Register() {
                 placeholder="••••••••"
               />
               {errors.confirmPassword && (
-                <p className="mt-1 text-sm text-primary">{errors.confirmPassword}</p>
+                <p className="mt-1 text-sm text-red-600">{errors.confirmPassword}</p>
               )}
             </div>
 
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full bg-primary hover:bg-primary-dark text-white font-bold py-3 rounded-2xl transition duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1"
+              className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded-2xl transition duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1"
             >
               Create Account
             </button>
@@ -188,7 +188,7 @@ export default function Register() {
           <div className="mt-6 text-center">
             <p className="text-gray-600">
               Already have an account?{' '}
-              <Link to="/login" className="text-primary hover:text-primary-light font-medium transition duration-300">
+              <Link to="/login" className="text-indigo-600 hover:text-indigo-500 font-medium transition duration-300">
                 Sign in
               </Link>
             </p>

@@ -29,14 +29,14 @@ export default function OurCulture() {
 
         {/* Top Tag */}
         <div className="text-center mb-6">
-          <p className="text-primary uppercase tracking-widest text-sm font-semibold">
+          <p className="text-red-600 uppercase tracking-widest text-sm font-semibold">
             Our Culture
           </p>
         </div>
 
         {/* Heading */}
         <h2 className="text-4xl lg:text-5xl font-bold text-center mb-20">
-          What Is <span className="text-primary">The Contractum</span> Culture?
+          What Is <span className="text-red-600">The Contractum</span> Culture?
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -52,7 +52,7 @@ export default function OurCulture() {
             </div>
 
             {/* Top Left */}
-            <div className="absolute -top-6 left-16 w-36 h-36 bg-primary-light rounded-full flex items-center justify-center text-white text-center shadow-lg animate-float-1">
+            <div className="absolute -top-6 left-16 w-36 h-36 bg-pink-500 rounded-full flex items-center justify-center text-white text-center shadow-lg animate-float-1">
               <span className="text-sm font-semibold px-3">
                 Boundaryless Growth
               </span>
@@ -80,7 +80,7 @@ export default function OurCulture() {
             </div>
 
             {/* Bottom Left */}
-            <div className="absolute bottom-0 left-24 w-36 h-36 bg-primary rounded-full flex items-center justify-center text-white text-center shadow-lg animate-float-5">
+            <div className="absolute bottom-0 left-24 w-36 h-36 bg-purple-600 rounded-full flex items-center justify-center text-white text-center shadow-lg animate-float-5">
               <span className="text-sm font-semibold px-3">
                 Collaboration & Comm.
               </span>
@@ -102,7 +102,7 @@ export default function OurCulture() {
                 key={index}
                 className={`border-b border-gray-300 pb-6 text-lg transition-all duration-500 ${
                   activeIndex === index
-                    ? "text-primary font-bold scale-105 border-primary animate-pulse"
+                    ? "text-red-600 font-bold scale-105 border-red-600 animate-pulse"
                     : "text-gray-700"
                 }`}
               >

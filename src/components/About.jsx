@@ -14,18 +14,18 @@ export default function About() {
               With over a decade of experience and a team of passionate professionals, we've helped thousands of clients achieve their goals and transform their operations.
             </p>
             <div className="grid grid-cols-2 gap-6">
-              <div className="text-center p-4 bg-primary/10 rounded-2xl">
-                <div className="text-3xl font-bold text-primary mb-2">10+</div>
+              <div className="text-center p-4 bg-indigo-50 rounded-2xl">
+                <div className="text-3xl font-bold text-indigo-600 mb-2">10+</div>
                 <div className="text-gray-600">Years Experience</div>
               </div>
-              <div className="text-center p-4 bg-primary/10 rounded-2xl">
-                <div className="text-3xl font-bold text-primary mb-2">5000+</div>
+              <div className="text-center p-4 bg-indigo-50 rounded-2xl">
+                <div className="text-3xl font-bold text-indigo-600 mb-2">5000+</div>
                 <div className="text-gray-600">Happy Clients</div>
               </div>
             </div>
           </div>
           <div className="relative">
-            <div className="bg-linear-to-r from-primary-light to-purple-500 rounded-2xl h-96 shadow-xl"></div>
+            <div className="bg-linear-to-r from-indigo-400 to-purple-500 rounded-2xl h-96 shadow-xl"></div>
           </div>
         </div>
       </div>

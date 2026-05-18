@@ -28,7 +28,7 @@ export default function AboutSection() {
           />
 
           {/* Experience Badge */}
-          <div className="absolute bottom-10 left-10 bg-primary text-white p-6 rounded-lg shadow-xl">
+          <div className="absolute bottom-10 left-10 bg-red-600 text-white p-6 rounded-lg shadow-xl">
             <h2 className="text-3xl font-bold">10</h2>
             <p className="text-sm">Years of Experience</p>
           </div>
@@ -40,8 +40,8 @@ export default function AboutSection() {
 
           {/* About Label */}
           <div className="flex items-center gap-3 mb-4">
-            <span className="w-2 h-2 bg-primary rounded-full"></span>
-            <p className="text-primary uppercase tracking-widest font-semibold text-sm">
+            <span className="w-2 h-2 bg-red-600 rounded-full"></span>
+            <p className="text-red-600 uppercase tracking-widest font-semibold text-sm">
               About Us
             </p>
           </div>
@@ -55,7 +55,7 @@ export default function AboutSection() {
 
           {/* About Contractum */}
           <div className="mb-6">
-            <h3 className="text-xl font-semibold text-black mb-2">
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">
               About The Contractum
             </h3>
             <p className="text-gray-600 leading-relaxed">
@@ -67,7 +67,7 @@ export default function AboutSection() {
 
           {/* Expertise */}
           <div className="mb-8">
-            <h3 className="text-xl font-semibold text-black mb-2">
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Our Expertise
             </h3>
             <p className="text-gray-600 leading-relaxed">
@@ -78,7 +78,7 @@ export default function AboutSection() {
           </div>
 
           {/* Button */}
-          <button className="bg-primary text-white px-8 py-3 font-semibold rounded hover:bg-primary-dark transition duration-300 shadow-lg">
+          <button className="bg-red-600 text-white px-8 py-3 font-semibold rounded hover:bg-red-700 transition duration-300 shadow-lg">
             Discover More
           </button>
 

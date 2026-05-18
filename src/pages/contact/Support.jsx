@@ -8,7 +8,7 @@ const Support = () => {
       <div className="bg-gradient-to-b from-gray-50 to-white py-20 border-b">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h1 className="text-5xl font-bold mb-4 text-gray-900">Support & Help Desk</h1>
-          <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-red-600 mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Our dedicated support team is here to assist you. Get quick answers, expert guidance, and solutions to keep your business running smoothly.
           </p>
@@ -30,18 +30,18 @@ const Support = () => {
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Phone Support</h3>
               <p className="text-gray-600 text-sm mb-4 leading-relaxed">Speak with our expert support team</p>
-              <a href="tel:+919680534740" className="text-primary font-semibold text-sm hover:text-green-700 flex items-center gap-1">
+              <a href="tel:+919680534740" className="text-green-600 font-semibold text-sm hover:text-green-700 flex items-center gap-1">
                 Call Now <span>→</span>
               </a>
             </div>
 
             <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all cursor-pointer border border-gray-200 p-6 group">
-              <div className="bg-gradient-to-br from-purple-500 to-primary w-14 h-14 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <div className="bg-gradient-to-br from-purple-500 to-purple-600 w-14 h-14 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <Mail size={26} className="text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Email Support</h3>
               <p className="text-gray-600 text-sm mb-4 leading-relaxed">Detailed assistance via email</p>
-              <a href="mailto:info@thecontractum.com" className="text-primary font-semibold text-sm hover:text-primary-dark flex items-center gap-1">
+              <a href="mailto:info@thecontractum.com" className="text-purple-600 font-semibold text-sm hover:text-purple-700 flex items-center gap-1">
                 Send Email <span>→</span>
               </a>
             </div>
@@ -63,7 +63,7 @@ const Support = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Full Name <span className="text-primary">*</span>
+                    Full Name <span className="text-red-500">*</span>
                   </label>
                   <input
                     type="text"
@@ -75,7 +75,7 @@ const Support = () => {
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Email Address <span className="text-primary">*</span>
+                    Email Address <span className="text-red-500">*</span>
                   </label>
                   <input
                     type="email"
@@ -88,7 +88,7 @@ const Support = () => {
 
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Issue Category <span className="text-primary">*</span>
+                  Issue Category <span className="text-red-500">*</span>
                 </label>
                 <select className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-gray-800 focus:ring-2 focus:ring-gray-200 focus:outline-none transition-all bg-white" required>
                   <option value="">Select a category</option>
@@ -103,7 +103,7 @@ const Support = () => {
 
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Priority Level <span className="text-primary">*</span>
+                  Priority Level <span className="text-red-500">*</span>
                 </label>
                 <select className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-gray-800 focus:ring-2 focus:ring-gray-200 focus:outline-none transition-all bg-white" required>
                   <option value="">Select priority</option>
@@ -116,7 +116,7 @@ const Support = () => {
 
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Subject <span className="text-primary">*</span>
+                  Subject <span className="text-red-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -128,7 +128,7 @@ const Support = () => {
 
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Description <span className="text-primary">*</span>
+                  Description <span className="text-red-500">*</span>
                 </label>
                 <textarea
                   rows="6"
@@ -149,7 +149,7 @@ const Support = () => {
                 <p className="text-xs text-gray-500 mt-1">Max file size: 10MB. Supported formats: PDF, PNG, JPG</p>
               </div>
 
-              <button className="w-full bg-primary hover:bg-primary text-white py-4 rounded-lg font-semibold transition-all shadow-md hover:shadow-lg">
+              <button className="w-full bg-gray-900 hover:bg-gray-800 text-white py-4 rounded-lg font-semibold transition-all shadow-md hover:shadow-lg">
                 Submit Ticket
               </button>
             </form>
